@@ -13,14 +13,14 @@
       aria_main_nav: 'Hovudnavigasjon',
       aria_open_menu: 'Opne meny',
       nav_home: 'Heim',
-      nav_history: 'Historie',
-      nav_dark_tourism: 'Mørk turisme',
+      nav_history: 'Historie om Bruvik',
+      nav_dark_tourism: 'Kyrkjehistorie',
       nav_nature_industry: 'Natur og industri',
       nav_contacts: 'Kontakt',
       hero_h1: 'Bruvik: Der vill natur testar kroppen, og hard historie gjer sjela djupare',
       hero_lead:
         'Ei longread-reise på Osterøy: frå den gamle Bruvik kyrkje til øyisolasjonen på Ulfsnesøy og hårnålssvingane på Kossdalsvegen med 27 % stigning.',
-      hero_cta_history: 'Opn historia',
+      hero_cta_history: 'Historia om Bruvik',
       hero_cta_route: 'Bruviknipa-ruta',
       section2_kicker: 'Kjøpt historie',
       section2_h2: 'Korleis fiskarar og bønder fekk kyrkja si tilbake',
@@ -40,20 +40,31 @@
       footer_title: 'Bruvik Longread',
       footer_contact: 'Kontakt: visit@bruvik.local',
       footer_route: 'Rute: Bruvik kyrkje • Ulfsnesøy • Kossdalsvegen • Bruviknipa',
+      history_hero_kicker: 'Arkivkrønike',
+      history_hero_title: 'Historia om Bruvik',
+      history_hero_lead: 'Eitt fjordlandskap og ei fleirlagd historie om fellesskapet.',
+      church_history_hero_kicker: 'Kyrkjekrønike',
+      church_history_hero_title:
+        'Den arkitektoniske og sosiokulturelle utviklinga til Bruvik kyrkje: Frå mellomalderkyrkjelyd til 1800-tals monumentalisme',
+      church_history_hero_lead:
+        'Ei fleirspråkleg forteljing om arkitektur, eigarskap, ritual og lokalt minne.',
+      history_sources_title: 'Biletkjelder',
+      history_sources_note: 'Alle foto er henta frå Marcus ved Universitetsbiblioteket i Bergen.',
+      church_history_footer_note: 'Tekst og illustrasjonar: kyrkjehistoria i Bruvik på fire språk.',
     },
     ua: {
       skip_to_content: 'Перейти до контенту',
       aria_main_nav: 'Основна навігація',
       aria_open_menu: 'Відкрити меню',
       nav_home: 'Головна',
-      nav_history: 'Історія',
-      nav_dark_tourism: 'Темний туризм',
+      nav_history: 'Історія Брувіка',
+      nav_dark_tourism: 'Історія церкви',
       nav_nature_industry: 'Природа й індустрія',
       nav_contacts: 'Контакти',
       hero_h1: 'Брувік: там, де дика природа випробовує тіло на міцність, а сувора історія поглиблює душу',
       hero_lead:
         'Лонгрід-мандрівка Остереєм: від давньої Bruvik kyrkje до острівної ізоляції Ulfsnesøy і серпантину Kossdalsvegen з ухилом 27%.',
-      hero_cta_history: 'Відкрити хроніку',
+      hero_cta_history: 'Історія Брувіка',
       hero_cta_route: 'Маршрут Брувікніпа',
       section2_kicker: 'Куплена історія',
       section2_h2: 'Як рибалки й селяни повернули собі храм',
@@ -73,20 +84,31 @@
       footer_title: 'Bruvik Longread',
       footer_contact: 'Контакт: visit@bruvik.local',
       footer_route: 'Маршрут: Bruvik kyrkje • Ulfsnesøy • Kossdalsvegen • Bruviknipa',
+      history_hero_kicker: 'Архівна хроніка',
+      history_hero_title: 'Історія Брувіка',
+      history_hero_lead: 'Один фіорд і багатошарова історія громади.',
+      church_history_hero_kicker: 'Церковна хроніка',
+      church_history_hero_title:
+        'Архітектурна та соціокультурна еволюція церкви Брувіка: Від середньовічної парафії до монументалізму XIX століття',
+      church_history_hero_lead:
+        'Багатомовна розповідь про архітектуру, власність, обряди та пам’ять громади.',
+      history_sources_title: 'Джерела фотографій',
+      history_sources_note: 'Усі фото взято з Marcus, Universitetsbiblioteket i Bergen.',
+      church_history_footer_note: 'Текст і ілюстрації: церковна історія Брувіка чотирма мовами.',
     },
     en: {
       skip_to_content: 'Skip to content',
       aria_main_nav: 'Main navigation',
       aria_open_menu: 'Open menu',
       nav_home: 'Home',
-      nav_history: 'History',
-      nav_dark_tourism: 'Dark tourism',
+      nav_history: 'History of Bruvik',
+      nav_dark_tourism: 'Church History',
       nav_nature_industry: 'Nature & industry',
       nav_contacts: 'Contacts',
       hero_h1: 'Bruvik: where wild nature tests the body, and stark history deepens the soul',
       hero_lead:
         'A longread journey across Osterøy: from the historic Bruvik kyrkje to the island isolation of Ulfsnesøy and the Kossdalsvegen hairpins with a 27% gradient.',
-      hero_cta_history: 'Open the chronicle',
+      hero_cta_history: 'History of Bruvik',
       hero_cta_route: 'Bruviknipa route',
       section2_kicker: 'Bought history',
       section2_h2: 'How fishers and farmers reclaimed their church',
@@ -106,20 +128,31 @@
       footer_title: 'Bruvik Longread',
       footer_contact: 'Contact: visit@bruvik.local',
       footer_route: 'Route: Bruvik kyrkje • Ulfsnesøy • Kossdalsvegen • Bruviknipa',
+      history_hero_kicker: 'Archive chronicle',
+      history_hero_title: 'History of Bruvik',
+      history_hero_lead: 'One fjord and a multilayered story of the community.',
+      church_history_hero_kicker: 'Church chronicle',
+      church_history_hero_title:
+        'The Architectural and Socio-Cultural Evolution of Bruvik Church: From Medieval Parish to 19th-Century Monumentalism',
+      church_history_hero_lead:
+        'A multilingual narrative on architecture, ownership, rituals, and community memory.',
+      history_sources_title: 'Photo sources',
+      history_sources_note: 'All images are sourced from Marcus at the University of Bergen Library.',
+      church_history_footer_note: 'Text and illustrations: Bruvik church history in four languages.',
     },
     ru: {
       skip_to_content: 'Перейти к контенту',
       aria_main_nav: 'Основная навигация',
       aria_open_menu: 'Открыть меню',
       nav_home: 'Главная',
-      nav_history: 'История',
-      nav_dark_tourism: 'Тёмный туризм',
+      nav_history: 'История Брувика',
+      nav_dark_tourism: 'История Церкви',
       nav_nature_industry: 'Природа и индустрия',
       nav_contacts: 'Контакты',
       hero_h1: 'Брувик: там, где дикая природа испытывает тело на прочность, а суровая история углубляет душу',
       hero_lead:
         'Лонгрид-путешествие по Osterøy: от древней Bruvik kyrkje до островной изоляции Ulfsnesøy и серпантина Kossdalsvegen с уклоном 27%.',
-      hero_cta_history: 'Открыть хронику',
+      hero_cta_history: 'История Брувика',
       hero_cta_route: 'Маршрут Брувикнипа',
       section2_kicker: 'Купленная история',
       section2_h2: 'Как рыбаки и крестьяне вернули свой храм',
@@ -139,6 +172,17 @@
       footer_title: 'Bruvik Longread',
       footer_contact: 'Контакт: visit@bruvik.local',
       footer_route: 'Маршрут: Bruvik kyrkje • Ulfsnesøy • Kossdalsvegen • Bruviknipa',
+      history_hero_kicker: 'Архивная хроника',
+      history_hero_title: 'История Брувика',
+      history_hero_lead: 'Один фьорд и многослойная история общины.',
+      church_history_hero_kicker: 'Церковная хроника',
+      church_history_hero_title:
+        'Архитектурная и социокультурная эволюция церкви Брувика: От средневекового прихода до монументализма XIX века',
+      church_history_hero_lead:
+        'Мультиязычный рассказ об архитектуре, собственности, обрядах и памяти общины.',
+      history_sources_title: 'Источники фотографий',
+      history_sources_note: 'Все изображения взяты из Marcus при Universitetsbiblioteket i Bergen.',
+      church_history_footer_note: 'Текст и иллюстрации: церковная история Брувика на четырех языках.',
     },
   };
 
@@ -188,6 +232,16 @@
         element.setAttribute(attr.trim(), getText(key.trim(), lang));
       });
     });
+
+    const langBlocks = document.querySelectorAll('[data-lang-block]');
+    if (langBlocks.length) {
+      langBlocks.forEach((element) => {
+        const blockLang = normalizeLang(element.dataset.langBlock || 'nn');
+        const isActive = blockLang === lang;
+        element.hidden = !isActive;
+        element.setAttribute('aria-hidden', String(!isActive));
+      });
+    }
 
     const meta = LANG_META[lang];
     document.documentElement.lang = meta.htmlLang;

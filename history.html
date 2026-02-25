@@ -1,103 +1,373 @@
 ﻿<!doctype html>
-<html lang="ru">
+<html lang="nn">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="История Bruvik kyrkje: от ставкирки 1374 года до храма Стокфлета. Таймлайн 1320–2019 и эволюция сакрального пространства.">
-  <title>Bruvik kyrkje historie | Сакральная архитектура и хроника</title>
+  <meta name="description" content="Bruvik history in four languages with archival photography from Marcus and full longread text.">
+  <title>History of Bruvik | Multilingual Archive Chronicle</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="page-light">
-  <a class="skip-link" href="#main">Перейти к контенту</a>
+<body class="chronicle-page">
+  <a class="skip-link" href="#main" data-i18n="skip_to_content">Hopp til innhald</a>
   <header class="site-header">
     <div class="nav-wrap">
       <a class="brand" href="index.html">BRUVIK</a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Открыть меню">☰</button>
-      <nav class="nav-menu" aria-label="Основная навигация">
-        <a class="nav-link" href="index.html">Главная</a>
-        <a class="nav-link" href="history.html">История</a>
-        <a class="nav-link" href="dark-tourism.html">Тёмный туризм</a>
-        <a class="nav-link" href="nature-industry.html">Природа и индустрия</a>
-      </nav>
+      <div class="nav-controls">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Opne meny" data-i18n-attr="aria-label:aria_open_menu">☰</button>
+        <nav class="nav-menu" aria-label="Hovudnavigasjon" data-i18n-attr="aria-label:aria_main_nav">
+          <a class="nav-link" href="index.html" data-i18n="nav_home">Heim</a>
+          <a class="nav-link" href="history.html" data-i18n="nav_history">Historie om Bruvik</a>
+          <a class="nav-link" href="church-history.html" data-i18n="nav_dark_tourism">Kyrkjehistorie</a>
+          <a class="nav-link" href="nature-industry.html" data-i18n="nav_nature_industry">Natur og industri</a>
+          <a class="nav-link" href="#contacts" data-i18n="nav_contacts">Kontakt</a>
+        </nav>
+        <div class="lang-switch" id="lang-switch">
+          <button class="lang-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="lang-list">
+            <span class="lang-current" id="lang-current">NN</span>
+          </button>
+          <ul class="lang-list" id="lang-list" role="listbox" aria-label="Language selector">
+            <li><button class="lang-option is-selected" type="button" role="option" aria-selected="true" data-lang="nn">NN</button></li>
+            <li><button class="lang-option" type="button" role="option" aria-selected="false" data-lang="ua">UA</button></li>
+            <li><button class="lang-option" type="button" role="option" aria-selected="false" data-lang="en">EN</button></li>
+            <li><button class="lang-option" type="button" role="option" aria-selected="false" data-lang="ru">RU</button></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main id="main" class="longread">
-    <article id="chronicle" class="text-block reveal">
-      <p class="kicker">Глава 1</p>
-      <h1>Bruvik kyrkje historie: этимология и средневековый генезис</h1>
-      <p>Понимание идентичности любого поселения начинается с глубокой расшифровки его топонима, который часто служит капсулой времени. Название деревни Брувик восходит к староскандинавскому слову «Brúnvíkr»: «залив у горного хребта». Эта дихотомия камня и воды задала будущую визуальную и культурную ось всей территории.</p>
-      <p>Первые задокументированные упоминания местного церковного прихода относятся к 1320 году, а фиксация топонима «Brunvik» встречается в 1340, 1360 и 1374 годах. Именно в 1374 году впервые прямо упоминается существование первой деревянной ставкирки (stavkyrkje), символа статуса и устойчивости общины.</p>
-      <p>Сохранение Брувика как значимого прихода подтверждается налоговыми списками 1563–1598 годов, что подчеркивает непрерывность традиции даже на фоне чумы, реформ и политических изменений региона.</p>
-    </article>
-
-    <article id="architecture" class="surface reveal">
-      <p class="kicker">Глава 2</p>
-      <h2>Архитектурная доминанта и парадоксы сакрального пространства</h2>
-      <p>История церкви в Брувике отражает макроисторию Норвегии: от средневекового католического зодчества к постреформационному утилитаризму и архитектурному ренессансу XIX века. Около 1600 года древняя ставкирка уступила место бревенчатому срубу (laftebygg), который просуществовал до 1866 года.</p>
-      <p>В начале 1720-х государственные долги после Великой Северной войны привели к продаже церковного имущества. В 1724 году церковь Брувика была продана Кристиану Крогу из Бергена и почти полтора столетия оставалась частным активом, что усилило ощущение отчуждения у местной общины.</p>
-      <p>К 1864 году жители выкупили права на храм, а 13 марта 1867 года была освящена новая Bruvik kyrkje по проекту Фредерика Ганнибала Стокфлета. Храм сохранил важные артефакты прошлого: основание серебряного потира 1690 года и исторические колокола 1850 и 1947 годов.</p>
-      <img src="images/placeholder.jpg" alt="Bruvik kyrkje historie и Trekyrkje Vestland" loading="lazy">
-    </article>
-
-    <section id="timeline" class="surface reveal">
-      <h2>Таймлайн 1320–2019</h2>
-      <div class="timeline">
-        <div class="timeline-item"><strong>1320 / 1374</strong><br>Первые письменные свидетельства и упоминание первой ставкирки.</div>
-        <div class="timeline-item"><strong>1608 / 1622</strong><br>Возведение бревенчатого сруба и формирование облика аннекс-церкви.</div>
-        <div class="timeline-item"><strong>1690</strong><br>Дар пастора Хаммера: основание серебряного потира.</div>
-        <div class="timeline-item"><strong>1724</strong><br>Великий церковный аукцион и начало 140-летнего периода частного владения.</div>
-        <div class="timeline-item"><strong>1867</strong><br>Освящение новой Bruvik kyrkje по проекту Ф. Г. Стокфлета.</div>
-        <div class="timeline-item"><strong>1870</strong><br>Старт индустриализации и рост муниципальной самостоятельности.</div>
-        <div class="timeline-item"><strong>1881 / 1904</strong><br>Открытие и перестройка колонии на Ульфснесёй.</div>
-        <div class="timeline-item"><strong>1961–1968</strong><br>Закрытие известнякового производства и ликвидация муниципалитета.</div>
-        <div class="timeline-item"><strong>1981–2019</strong><br>Пенитенциарный эко-эксперимент на Ульфснесёй.</div>
+  <main id="main" class="chronicle-main">
+    <section class="chronicle-hero hero hero-overlap" id="chronicle-top">
+      <div class="hero-media" data-parallax="0.08" style="background-image:url('images/ubb-kk-pk-7001_xl.jpg')"></div>
+      <div class="hero-content reveal">
+        <p class="kicker" data-i18n="history_hero_kicker">Архивная хроника</p>
+        <h1 data-i18n="history_hero_title">История Брувика</h1>
+        <p class="lead" data-i18n="history_hero_lead">Один фьорд и многослойная история общины.</p>
       </div>
     </section>
 
-    <section id="evolution" class="surface reveal">
-      <h2>Эволюция сакрального пространства</h2>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Исторический этап</th>
-              <th>Тип сооружения</th>
-              <th>Ключевые характеристики</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>До 1600 года</td>
-              <td>Ставкирка (Stavkyrkje)</td>
-              <td>Каркасная мачтовая конструкция, впервые упомянута в 1374 году.</td>
-            </tr>
-            <tr>
-              <td>1608/1622–1866</td>
-              <td>Бревенчатый сруб (Laftebygg)</td>
-              <td>Аннекс-церковь, в 1724 продана в частные руки, снесена в 1866.</td>
-            </tr>
-            <tr>
-              <td>1867–настоящее время</td>
-              <td>Деревянная длинная церковь (Langkyrkje)</td>
-              <td>Проект Ф. Г. Стокфлета, 350–500 мест, артефакты 1690, 1850 и 1947 годов.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+    <section class="chronicle-stack">
+<article class="chronicle-article" data-lang-block="nn" aria-hidden="false">
+  <header class="chronicle-prologue surface reveal">
+    <h2>Bruvik: Sosiokulturell evolusjon, industriell pragmatisme og øyidentitet</h2>
+    <p>Bruvik er eit samansett sosiokulturelt fenomen på kartet over Vestlandet, der fenomenal demografisk levedyktigheit, hardt fysisk arbeid og strenge sosiale praksisar har floka seg saman gjennom hundreåra. Det opphavlege norrøne toponymet «Brúnvíkr» («vika ved fjellbrynet») har ein strengt funksjonell karakter, og kodar det geologiske dominerande trekket i landskapet: Dei massive steinmassane på Osterøy stuper bratt ned i det djupe vatnet i fjorden. Denne opphavlege dikotomien mellom hard stein og flytande vatn la føringane for den lokale befolkninga sin overlevingslogikk.</p>
+  </header>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Demografisk tilpassing og utspringet til lokalsamfunnet</h3>
+    <p>Dei første dokumenterte prova på den institusjonelle organiseringa av busetnaden daterer seg til 1320, då utsendingar frå Bruvik var til stades på eit kyrkjemøte i Bergen. Busetnaden synte ei usedvanleg demografisk motstandskraft i møte med kritiske omveltingar. Trass i at Svartedauden i 1349 utsletta ein enorm del av befolkninga i Skandinavia, tok lokalsamfunnet i Bruvik seg raskt opp att, noko den kontinuerlege rekkja av skatte- og kyrkjeregister frå 1360 og 1374 vitnar om.</p>
+    <p>Denne evna til regenerering forma ein særskild type innbyggjarar – pragmatiske, uthaldande og klare for sjølvorganisering i ein tilstand av isolasjon frå dei større sentera på fastlandet.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-kk-pk-7001_xl.jpg" alt="Parti fra Bruvik, historical fjord landscape" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Atelier KK / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-kk-pk-7001.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Kvardagssosiologi: Strenge overgangsrituar</h3>
+    <p>Den geografiske avstanden frå sivilisasjonen kom tydelegast til uttrykk i innbyggjarane sitt forhold til døden og gravferdspraksisar. Før den utbygde dampskipstrafikken kom, vart dødsfallet til ein i samfunnet ei utmattande logistisk prøve.</p>
+    <ul>
+      <li><strong>Transport:</strong> Mennene la ut på ei farleg ferd i robåtar eller små seglbåtar over fjordane til Bergen, utelukkande for å skaffe dei tradisjonelle svarte kistene.</li>
+      <li><strong>Sosiale avskjedar:</strong> Ventetida på levering kunne ta fleire dagar. Avskjeden med den avdøde fann stad direkte i heimane: Slektningar og naboar samla seg i same rom som den døde, der det ofte vart servert mat og kaffi med ein gong.</li>
+      <li><strong>Sjølvorganisering:</strong> På grunn av at busetnaden var så vanskeleg tilgjengeleg, vitja ordinerte prestar Bruvik sjeldan. Den praktiske gjennomføringa av rituala fall på lekfolket – til å leie seremonien valde ein den mest respekterte innbyggjaren i bygda (forsongaren), som las salmar og leidde songen.</li>
+    </ul>
+    <p>Det offisielle ritualet for jordfesting med prest kunne finne stad først fleire månadar seinare. Samstundes fungerte den lokale kyrkja alltid som den andelege og sosiale kjernen i busetnaden. Praksisen med å kjøpe eksklusive gravstader direkte under tregolvet i den gamle kyrkja var vanleg blant velståande bønder. Sjølve den arkitektoniske og institusjonelle lagnaden til Bruvik kyrkje – frå bygginga av ei stavkyrkje i tre på 1300-talet til kongens audmjukande tvangssal av bygningen på auksjon i 1724 for å dekkje krigsgjeld – er så monumental og samansett at ho krev ei eiga, sjølvstendig gransking.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-jr-084-004_xl.jpg" alt="Bruvik and Stamnes village view" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: John Bernhard Rekstad / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-jr-084-004.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Økonomisk transformasjon: Industrielt hegemoni</h3>
+    <p>Den historiske vegen til Bruvik knuser radikalt stereotypien om dei norske fjordane som ein utelukkande jordbruks- og fiskeidyll. Frå andre halvdel av 1800-talet vart bygda omdanna til eit kraftig industrielt og administrativt knutepunkt.</p>
+    <p>I 1870 vart den sjølvstendige Bruvik kommune offisielt oppretta. På toppen av si stordomstid kontrollerte denne administrative eininga enorme område på begge sider av fjorden med eit folketal på 5673. Det er verdt å merke seg at den demografiske fordelinga var asymmetrisk: På sjølve øyområdet Osterøy budde det berre 409 faste innbyggjarar, men det var nettopp her den logistiske og administrative infrastrukturen var konsentrert.</p>
+    <p><strong>Grunnlaget for industrialiseringa:</strong></p>
+    <p>Det økonomiske fundamentet for denne oppblomstringa var Skaftådalen (Skaftå).</p>
+    <ul>
+      <li>Frå 1870 tok ein til med storskala industriell utvinning av kalksteinsførekomstar her.</li>
+      <li>Arbeidet for steinhoggarar og gruvearbeidarar i opne brot og ved kalkomnane var fysisk utmattande og særs farleg.</li>
+      <li>Den utvunne steinen vart frakta på lekterar, og spelte ei kritisk rolle i byggeboomen i det veksande Bergen, samt for å nøytralisere surleiken i jordbruksjorda på Vestlandet.</li>
+    </ul>
+    <p>Den industrielle identiteten til området var så dominerande at det offisielle kommunevåpenet vart eit massivt tannhjul – eit kompromisslaust manifest for trua på maskinisering, framsteg og krafta i hardt kroppsarbeid. Den industrielle stordomstida tok først slutt på 1960-talet: Kalksteinsproduksjonen vart lagd ned i 1961, og sjølve kommunen vart oppløyst og delt mellom nabokommunane i 1968.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-kk-nbx-0056_xl.jpg" alt="View from Bruvik toward Vaksdal" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Knud Knudsen / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-kk-nbx-0056.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Penitentiær psykogeografi: Ulfsnesøy</h3>
+    <p>Som ein kontrast til dei industrielle sigrane står eit mørkt psykogeografisk objekt – øya Ulfsnesøy, som ligg rett overfor kaia i Bruvik. Observasjonen av denne øya danna ein spesifikk psykologisk bakgrunn for fleire generasjonar av lokale innbyggjarar.</p>
+    <p>Frå 1881 nytta den norske staten dette isolerte området som ein streng oppdragar- og skuleheim for «vanskelege» gutar frå heile landet. Tenåringane vart rivne bort frå familiane sine og plasserte under dei strenge kåra i øydisiplinen, der det iskalde vatnet i fjorden gjorde all flukt nærast umogleg. Systemet var basert på hardt jordbruksarbeid. Trass i at ein katastrofal brann i 1901 øydela nesten alle bygningane, vart anlegget raskt bygd opp att innan 1904.</p>
+    <p>Institusjonen var i drift i eit heilt hundreår. Seinare, frå 1981 til 2019, vart infrastrukturen på øya nytta til å gjennomføre eit radikalt skandinavisk eksperiment – her dreiv ein eit eksperimentelt ope fengsel med ei økologisk innretting. Dei innsette dreiv med økologisk landbruk og dyrestell, noko som skapte ein paradoksal kontrast til den mørke historiske fortida til staden.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-kk-pk-7000_xl.jpg" alt="Parti fra Bruvik, second archival angle" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Atelier KK / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-kk-pk-7000.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Naturleg dominant: Integrering i det moderne landskapet</h3>
+    <p>Heile det historiske dramaet til lokalsamfunnet utspelte seg ved foten av fjellet Bruviknipa, som rager 822 meter over havet. I dag fungerer dette massivet som eit nøkkelelement i transformasjonen av Bruvik frå eit tidlegare industrisenter til ein destinasjon for intellektuell og ekstrem turisme.</p>
+    <p>Den klassiske turiststien startar direkte frå ruinane av dei gamle industrielle parkeringsplassane og kalksteinsbrota i Skaftådalen. Slik sett representerer den moderne oppstiginga ei fysisk rørsle gjennom historiske lag: frå sona med hardt menneskeleg arbeid i låglandet til den panoramiske toppen. Om vinteren vert fjellet transformert til ei utfordrande rute for ekstrem skiturisme.</p>
+    <p>Dagens Bruvik er ei samansett forteljing, der estetikken i den ville naturen er uatskiljeleg frå historia om menneskeleg overvinning: frå klangen av hakker i steinbrota og strenge øyrituar til den djupe isolasjonen i straffeinstitusjonane på fjordvatnet.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-bs-ok-07396_xl.jpg" alt="Brudvik and Sørfjorden, April 1901" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Oscar Hansen / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-bs-ok-07396.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+</article>
+
+<article class="chronicle-article" data-lang-block="ua" aria-hidden="true" hidden>
+  <header class="chronicle-prologue surface reveal">
+    <h2>Брувік: Соціокультурна еволюція, індустріальний прагматизм та острівна ідентичність</h2>
+    <p>Брувік — складний соціокультурний феномен на мапі Західної Норвегії, де протягом століть перепліталися феноменальна демографічна життєстійкість, важка фізична праця та суворі соціальні практики. Оригінальний давньоскандинавський топонім «Brúnvíkr» («затока біля гірського хребта») має суто функціональний характер, кодуючи геологічну домінанту ландшафту: масивні скельні породи острова Остерей різко обриваються в глибокі води затоки. Ця первісна дихотомія твердого каменю та плинної води зумовила логіку виживання місцевого населення.</p>
+  </header>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Демографічна адаптивність та генезис громади</h3>
+    <p>Перші документальні свідчення про інституційне оформлення поселення належать до 1320 року, коли делегати від Брувіка були присутні на церковному соборі в Бергені. Поселення продемонструвало виняткову демографічну стійкість в умовах критичних потрясінь. Незважаючи на пандемію Чорної смерті 1349 року, яка знищила колосальну частину населення Скандинавії, громада Брувіка швидко відновилася, про що свідчить безперервність податкових і церковних реєстрів 1360 та 1374 років.</p>
+    <p>Ця здатність до регенерації сформувала особливий тип місцевого жителя — прагматичного, витривалого та готового до самоорганізації в умовах ізоляції від великих материкових центрів.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-kk-pk-7001_xl.jpg" alt="Parti fra Bruvik, historical fjord landscape" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Atelier KK / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-kk-pk-7001.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Соціологія побуту: Суворі ритуали переходу</h3>
+    <p>Географічна відірваність від цивілізації найяскравіше виявлялася у ставленні жителів до смерті та похоронних практик. До появи розвиненого пароплавного сполучення смерть члена громади перетворювалася на виснажливе логістичне випробування.</p>
+    <ul>
+      <li><strong>Транспортування:</strong> Чоловіки вирушали в небезпечне плавання на веслових човнах або невеликих вітрильниках фіордами до Бергена виключно заради придбання традиційних чорних трун.</li>
+      <li><strong>Соціальні проводи:</strong> Очікування доставки могло тривати кілька днів. Проводи покійного відбувалися безпосередньо в будинках: родичі та сусіди збиралися в одній кімнаті з небіжчиком, де часто одразу ж подавали їжу та каву.</li>
+      <li><strong>Самоорганізація:</strong> Через важкодоступність поселення висвячені пастори відвідували Брувік рідко. Практична реалізація ритуалов лягала на плечі мирян — для проведення церемонії обирали найповажнішого жителя села (forsanger), який читав псалми та керував співами.</li>
+    </ul>
+    <p>Офіційний обряд освячення землі (jordfestelse) за участю пастора міг відбутися лише через кілька місяців. При цьому духовним і соціальним ядром поселення незмінно виступала місцева церква. Практика купівлі елітних місць для поховання безпосередньо під дерев'яною підлогою старого храму була звичною справою для заможних селян. Сама архітектурна та інституційна доля церкви Брувіка — від спорудження дерев'яної ставкірки в XIV столітті до принизливого продажу будівлі з аукціону королем у 1724 році заради покриття військових боргів — є настільки монументальною та складною, що потребує окремого, незалежного дослідження.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-jr-084-004_xl.jpg" alt="Bruvik and Stamnes village view" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: John Bernhard Rekstad / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-jr-084-004.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Економічна трансформація: Індустріальна гегемонія</h3>
+    <p>Історичний шлях Брувіка радикально руйнує стереотип про норвезькі фіорди як про виключно аграрно-рибальську ідилію. З другої половини XIX століття село трансформувалося в потужний індустріальний та адміністративний хаб.</p>
+    <p>У 1870 році був офіційно сформований незалежний муніципалітет Брувік. На піку своєї експансії ця адміністративна одиниця контролювала колосальні території по обидва боки фіорду з населенням 5673 особи. Примітно, що демографічний розподіл був асиметричним: на самій острівній території Остерея проживало лише 409 постійних жителів, проте саме тут концентрувалася логістична та управлінська інфраструктура.</p>
+    <p><strong>Базис індустріалізації:</strong></p>
+    <p>Економічним фундаментом цього розквіту стала долина Скафто (Skaftå).</p>
+    <ul>
+      <li>З 1870 року тут почалася масштабна промислова розробка покладів вапняку.</li>
+      <li>Праця каменотесів і гірників у відкритих кар'єрах та на випалювальних печах була фізично виснажливою і вкрай небезпечною.</li>
+      <li>Видобута порода транспортувалася на баржах, відіграючи критичну роль у будівельному бумі Бергена, що зростав, та нейтралізації кислотності сільськогосподарських ґрунтів Західної Норвегії.</li>
+    </ul>
+    <p>Індустріальна ідентичність території була настільки домінуючою, що офіційним гербом муніципалітету стала масивна шестірня — безкомпромісний маніфест віри в машинізацію, прогрес і силу важкої робітничої праці. Епоха промислової величі завершилася лише в 1960-х роках: виробництво вапняку було згорнуто 1961 року, а сам муніципалітет розформовано і поділено між сусідніми комунами 1968 року.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-kk-nbx-0056_xl.jpg" alt="View from Bruvik toward Vaksdal" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Knud Knudsen / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-kk-nbx-0056.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Пенітенціарна психогеографія: Острів Ульфснесей</h3>
+    <p>На тлі індустріальних перемог виділяється похмурий психогеографічний об'єкт — острів Ульфснесей (Ulfsnesøy), розташований прямо навпроти сільської пристані Брувіка. Спостереження за цим островом формувало специфічний психологічний фон для кількох поколінь місцевих жителів.</p>
+    <p>З 1881 року норвезька держава використовувала цю ізольовану територію як сувору виправну колонію-інтернат для «важковиховуваних» хлопчиків з усієї країни. Підлітків відривали від родин і поміщали в суворі умови острівної дисципліни, де крижані води фіорду робили будь-яку втечу практично неможливою. Система базувалася на важкій сільськогосподарській праці. Незважаючи на те, що в 1901 році катастрофічна пожежа знищила практично всі будівлі, комплекс був оперативно відбудований заново до 1904 року.</p>
+    <p>Установа проіснувала ціле століття. Згодом, з 1981 по 2019 рік, інфраструктура острова використовувалася для проведення радикального скандинавського експерименту — тут функціонувала експериментальна в'язниця відкритого типу з екологічним ухилом. Ув'язнені займалися органічним землеробством та доглядом за тваринами, що створювало парадоксальний контраст із похмурим історичним минулим локації.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-kk-pk-7000_xl.jpg" alt="Parti fra Bruvik, second archival angle" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Atelier KK / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-kk-pk-7000.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Природна домінанта: Інтеграція в сучасний ландшафт</h3>
+    <p>Уся історична драма громади розгорталася біля підніжжя гори Брувікніпа (Bruviknipa), що височіє на 822 метри над рівнем моря. Сьогодні цей масив слугує ключовим елементом трансформації Брувіка з колишнього промислового центру на дестинацію для інтелектуального та екстремального туризму.</p>
+    <p>Класична туристична стежка стартує безпосередньо від руїн старих індустріальних парковок і вапнякових кар'єрів у долині Скафто. Таким чином, сучасне сходження являє собою фізичне переміщення крізь історичні шари: від зони важкої людської праці в низині до панорамної вершини. Взимку гора трансформується у складний маршрут для екстремального скі-туру.</p>
+    <p>Сьогоднішній Брувік — це складний наратив, де естетика дикої природи невіддільна від історії людського подолання: від дзенькоту кирок у кар'єрах і суворих острівних ритуалів до глухої ізоляції пенітенціарних установ на водах фіорду.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-bs-ok-07396_xl.jpg" alt="Brudvik and Sørfjorden, April 1901" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Oscar Hansen / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-bs-ok-07396.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+</article>
+
+<article class="chronicle-article" data-lang-block="en" aria-hidden="true" hidden>
+  <header class="chronicle-prologue surface reveal">
+    <h2>Bruvik: Sociocultural Evolution, Industrial Pragmatism, and Island Identity</h2>
+    <p>Bruvik is a complex sociocultural phenomenon on the map of Western Norway, where phenomenal demographic resilience, hard physical labor, and austere social practices have intertwined over centuries. The original Old Norse toponym &quot;Brúnvíkr&quot; (&quot;the bay at the edge of the mountain&quot;) is strictly functional, encoding the geological dominant of the landscape: the massive rock formations of Osterøy island drop abruptly into the deep waters of the fjord. This primordial dichotomy of solid stone and flowing water predetermined the survival logic of the local population.</p>
+  </header>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Demographic Adaptability and Community Genesis</h3>
+    <p>The earliest documentary evidence of the settlement's institutional formation dates back to 1320, when delegates from Bruvik attended a church synod in Bergen. The settlement demonstrated exceptional demographic resilience in the face of critical upheavals. Although the Black Death pandemic of 1349 decimated a colossal portion of Scandinavia's population, the Bruvik community quickly recovered, as evidenced by the continuity of tax and church registers from 1360 and 1374.</p>
+    <p>This capacity for regeneration forged a specific type of local inhabitant—pragmatic, enduring, and capable of self-organization while isolated from major mainland centers.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-kk-pk-7001_xl.jpg" alt="Parti fra Bruvik, historical fjord landscape" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Atelier KK / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-kk-pk-7001.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Sociology of Everyday Life: Austere Rites of Passage</h3>
+    <p>Geographical isolation from civilization was most vividly manifested in the residents' attitudes toward death and burial practices. Prior to the advent of developed steamship communication, the death of a community member turned into an exhausting logistical ordeal.</p>
+    <ul>
+      <li><strong>Transportation:</strong> Men embarked on perilous voyages in rowboats or small sailboats across the fjords to Bergen solely to procure traditional black coffins.</li>
+      <li><strong>Social Farewells:</strong> Awaiting delivery could take several days. The farewell to the deceased took place directly in the homes: relatives and neighbors gathered in the same room as the deceased, where food and coffee were often served immediately.</li>
+      <li><strong>Self-Organization:</strong> Due to the settlement's inaccessibility, ordained pastors rarely visited Bruvik. The practical execution of rituals fell on the shoulders of the laity—the most respected village resident (<em>forsanger</em>) was chosen to lead the ceremony, reading psalms and directing the hymns.</li>
+    </ul>
+    <p>The official consecration of the grave (<em>jordfestelse</em>) involving a pastor might only occur months later. Meanwhile, the local church consistently served as the spiritual and social core of the settlement. The practice of purchasing elite burial plots directly beneath the wooden floorboards of the old church was common among wealthy farmers. The architectural and institutional fate of Bruvik Church itself—from the construction of a wooden stave church in the 14th century to the humiliating public auction of the building by the king in 1724 to cover war debts—is so monumental and complex that it demands a separate, independent study.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-jr-084-004_xl.jpg" alt="Bruvik and Stamnes village view" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: John Bernhard Rekstad / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-jr-084-004.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Economic Transformation: Industrial Hegemony</h3>
+    <p>Bruvik's historical trajectory radically dismantles the stereotype of the Norwegian fjords as an exclusively agrarian and fishing idyll. From the second half of the 19th century, the village transformed into a powerful industrial and administrative hub.</p>
+    <p>In 1870, the independent municipality of Bruvik was officially established. At the peak of its expansion, this administrative unit controlled vast territories on both sides of the fjord, with a population of 5,673. Notably, the demographic distribution was asymmetrical: only 409 permanent residents lived on the island territory of Osterøy itself, yet this was precisely where the logistical and administrative infrastructure was concentrated.</p>
+    <p><strong>The Basis of Industrialization:</strong></p>
+    <p>The economic foundation for this prosperity was the Skaftå valley.</p>
+    <ul>
+      <li>From 1870, large-scale industrial extraction of limestone deposits began here.</li>
+      <li>The labor of stonemasons and miners in the open-pit quarries and calcining kilns was physically exhausting and extremely dangerous.</li>
+      <li>The extracted rock was transported on barges, playing a critical role in the construction boom of a growing Bergen and in neutralizing the acidity of agricultural soils in Western Norway.</li>
+    </ul>
+    <p>The territory's industrial identity was so dominant that a massive gearwheel became the municipality's official coat of arms—an uncompromising manifesto of faith in mechanization, progress, and the power of heavy manual labor. The era of industrial grandeur only concluded in the 1960s: limestone production was phased out in 1961, and the municipality itself was dissolved and partitioned among neighboring communes in 1968.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-kk-nbx-0056_xl.jpg" alt="View from Bruvik toward Vaksdal" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Knud Knudsen / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-kk-nbx-0056.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Penitentiary Psychogeography: Ulfsnesøy Island</h3>
+    <p>Against the backdrop of industrial triumphs stands a grim psychogeographical object—the island of Ulfsnesøy, located directly opposite Bruvik's village pier. The observation of this island formed a specific psychological backdrop for several generations of local residents.</p>
+    <p>From 1881, the Norwegian state utilized this isolated territory as a strict reformatory boarding school for &quot;difficult&quot; boys from across the country. Teenagers were torn from their families and placed in the harsh conditions of island discipline, where the icy waters of the fjord made any escape practically impossible. The system was based on grueling agricultural labor. Although a catastrophic fire destroyed nearly all the buildings in 1901, the complex was promptly rebuilt by 1904.</p>
+    <p>The institution existed for a full century. Subsequently, from 1981 to 2019, the island's infrastructure was used to conduct a radical Scandinavian experiment—an experimental open prison with an ecological focus. Inmates engaged in organic farming and animal husbandry, creating a paradoxical contrast with the location's grim historical past.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-kk-pk-7000_xl.jpg" alt="Parti fra Bruvik, second archival angle" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Atelier KK / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-kk-pk-7000.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Natural Dominant: Integration into the Modern Landscape</h3>
+    <p>The entire historical drama of the community unfolded at the foot of Mount Bruviknipa, towering 822 meters above sea level. Today, this massif serves as a key element in Bruvik's transformation from a former industrial center into a destination for intellectual and extreme tourism.</p>
+    <p>The classic hiking trail starts directly from the ruins of old industrial parking lots and limestone quarries in the Skaftå valley. Thus, the modern ascent represents a physical journey through historical layers: from the zone of heavy human labor in the lowlands to the panoramic summit. In winter, the mountain transforms into a challenging route for extreme ski touring.</p>
+    <p>Today's Bruvik is a complex narrative where the aesthetics of wild nature are inseparable from the history of human overcoming: from the clinking of pickaxes in the quarries and harsh island rituals to the profound isolation of penitentiary institutions on the waters of the fjord.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-bs-ok-07396_xl.jpg" alt="Brudvik and Sørfjorden, April 1901" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Oscar Hansen / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-bs-ok-07396.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+</article>
+
+<article class="chronicle-article" data-lang-block="ru" aria-hidden="true" hidden>
+  <header class="chronicle-prologue surface reveal">
+    <h2>Брувик: Социокультурная эволюция, индустриальный прагматизм и островная идентичность</h2>
+    <p>Брувик — сложный социокультурный феномен на карте Западной Норвегии, где на протяжении столетий переплетались феноменальная демографическая жизнестойкость, тяжелый физический труд и суровые социальные практики. Оригинальный староскандинавский топоним «Brúnvíkr» («залив у горного хребта») носит строго функциональный характер, кодируя геологическую доминанту ландшафта: массивные скальные породы острова Остерёй резко обрываются в глубокие воды залива. Эта изначальная дихотомия твердого камня и текучей воды предопределила логику выживания местного населения.</p>
+  </header>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Демографическая адаптивность и генезис общины</h3>
+    <p>Первые документальные свидетельства об институциональной оформленности поселения относятся к 1320 году, когда делегаты от Брувика присутствовали на церковном соборе в Бергене. Поселение продемонстрировало исключительную демографическую устойчивость в условиях критических потрясений. Несмотря на пандемию Черной смерти 1349 года, уничтожившую колоссальную часть населения Скандинавии, община Брувика быстро восстановилась, о чем свидетельствует непрерывность налоговых и церковных реестров 1360 и 1374 годов.</p>
+    <p>Эта способность к регенерации сформировала особый тип местного жителя — прагматичного, выносливого и готового к самоорганизации в условиях изоляции от крупных материковых центров.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-kk-pk-7001_xl.jpg" alt="Parti fra Bruvik, historical fjord landscape" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Atelier KK / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-kk-pk-7001.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Социология быта: Суровые ритуалы перехода</h3>
+    <p>Географическая оторванность от цивилизации ярче всего проявлялась в отношении жителей к смерти и погребальным практикам. До появления развитого пароходного сообщения смерть члена общины превращалась в изнурительное логистическое испытание.</p>
+    <ul>
+      <li><strong>Транспортировка:</strong> Мужчины отправлялись в опасное плавание на весельных лодках или небольших парусниках по фьордам в Берген исключительно ради приобретения традиционных черных гробов.</li>
+      <li><strong>Социальные проводы:</strong> Ожидание доставки могло длиться несколько дней. Проводы усопшего проходили непосредственно в домах: родственники и соседи собирались в одной комнате с покойным, где зачастую сразу же подавались еда и кофе.</li>
+      <li><strong>Самоорганизация:</strong> Из-за труднодоступности поселения рукоположенные пасторы посещали Брувик редко. Практическая реализация ритуалов ложилась на плечи мирян — для проведения церемонии выбирался наиболее уважаемый житель деревни (forsanger), который читал псалмы и руководил песнопениями.</li>
+    </ul>
+    <p>Официальный обряд освящения земли (jordfestelse) с участием пастора мог состояться лишь спустя месяцы. При этом духовным и социальным ядром поселения неизменно выступала местная церковь. Практика покупки элитных мест для захоронения непосредственно под деревянными полами старого храма была обычным делом для зажиточных крестьян. Сама архитектурная и институциональная судьба церкви Брувика — от постройки деревянной ставкирки в XIV веке до унизительной продажи здания с аукциона королем в 1724 году ради покрытия военных долгов — является настолько монументальной и сложной, что требует отдельного, независимого исследования.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-jr-084-004_xl.jpg" alt="Bruvik and Stamnes village view" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: John Bernhard Rekstad / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-jr-084-004.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Экономическая трансформация: Индустриальная гегемония</h3>
+    <p>Исторический путь Брувика радикально разрушает стереотип о норвежских фьордах как об исключительно аграрно-рыболовецкой идиллии. Со второй половины XIX века деревня трансформировалась в мощный индустриальный и административный хаб.</p>
+    <p>В 1870 году был официально сформирован независимый муниципалитет Брувик. На пике своей экспансии эта административная единица контролировала колоссальные территории по обе стороны фьорда с населением в 5673 человека. Примечательно, что демографическое распределение было асимметричным: на самой островной территории Остерёя проживало лишь 409 постоянных жителей, однако именно здесь концентрировалась логистическая и управленческая инфраструктура.</p>
+    <p><strong>Базис индустриализации:</strong></p>
+    <p>Экономическим фундаментом этого расцвета стала долина Скафто (Skaftå).</p>
+    <ul>
+      <li>С 1870 года здесь началась масштабная промышленная разработка залежей известняка.</li>
+      <li>Труд каменотесов и горняков в открытых карьерах и на обжиговых печах был физически изнурительным и крайне опасным.</li>
+      <li>Добытая порода транспортировалась на баржах, играя критическую роль в строительном буме растущего Бергена и нейтрализации кислотности сельскохозяйственных почв Западной Норвегии.</li>
+    </ul>
+    <p>Индустриальная идентичность территории была настолько доминирующей, что официальным гербом муниципалитета стала массивная шестерня — бескомпромиссный манифест веры в машинизацию, прогресс и силу тяжелого рабочего труда. Эпоха промышленного величия завершилась лишь в 1960-х годах: производство известняка было свернуто в 1961 году, а сам муниципалитет расформирован и поделен между соседними коммунами в 1968 году.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-kk-nbx-0056_xl.jpg" alt="View from Bruvik toward Vaksdal" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Knud Knudsen / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-kk-nbx-0056.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Пенитенциарная психогеография: Остров Ульфснесёй</h3>
+    <p>На фоне индустриальных побед выделяется мрачный психогеографический объект — остров Ульфснесёй (Ulfsnesøy), расположенный прямо напротив деревенской пристани Брувика. Наблюдение за этим островом формировало специфический психологический фон для нескольких поколений местных жителей.</p>
+    <p>С 1881 года норвежское государство использовало эту изолированную территорию как строгую исправительную колонию-интернат для «трудновоспитуемых» мальчиков со всей страны. Подростков отрывали от семей и помещали в суровые условия островной дисциплины, где ледяные воды фьорда делали любой побег практически невозможным. Система базировалась на тяжелом сельскохозяйственном труде. Несмотря на то, что в 1901 году катастрофический пожар уничтожил практически все постройки, комплекс был оперативно отстроен заново к 1904 году.</p>
+    <p>Учреждение просуществовало целый век. Впоследствии, с 1981 по 2019 год, инфраструктура острова использовалась для проведения радикального скандинавского эксперимента — здесь функционировала экспериментальная тюрьма открытого типа с экологическим уклоном. Заключенные занимались органическим земледелием и уходом за животными, что создавало парадоксальный контраст с мрачным историческим прошлым локации.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-kk-pk-7000_xl.jpg" alt="Parti fra Bruvik, second archival angle" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Atelier KK / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-kk-pk-7000.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+  <section class="chronicle-chapter surface reveal">
+    <h3>Природная доминанта: Интеграция в современный ландшафт</h3>
+    <p>Вся историческая драма общины разворачивалась у подножия горы Брувикнипа (Bruviknipa), возвышающейся на 822 метра над уровнем моря. Сегодня этот массив служит ключевым элементом трансформации Брувика из бывшего промышленного центра в дестинацию для интеллектуального и экстремального туризма.</p>
+    <p>Классическая туристическая тропа стартует непосредственно от руин старых индустриальных парковок и известняковых карьеров в долине Скафто. Таким образом, современное восхождение представляет собой физическое перемещение сквозь исторические слои: от зоны тяжелого человеческого труда в низине до панорамной вершины. Зимой гора трансформируется в сложный маршрут для экстремального ски-тура.</p>
+    <p>Сегодняшний Брувик — это сложный нарратив, где эстетика дикой природы неотделима от истории человеческого преодоления: от звона кирок в карьерах и суровых островных ритуалов до глухой изоляции пенитенциарных учреждений на водах фьорда.</p>
+  </section>
+  <figure class="chronicle-figure reveal">
+    <img src="images/ubb-bs-ok-07396_xl.jpg" alt="Brudvik and Sørfjorden, April 1901" loading="lazy">
+    <figcaption class="chronicle-credit">
+      Фото: Oscar Hansen / Universitetsbiblioteket i Bergen. <a href="https://marcus.uib.no/instance/photograph/ubb-bs-ok-07396.html" target="_blank" rel="noopener noreferrer">Источник</a>
+    </figcaption>
+  </figure>
+</article>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" id="contacts">
     <div class="footer-grid">
       <div>
-        <h3>Историческая линия Bruvik</h3>
-        <p>Ключи: Bruvik kyrkje historie, Trekyrkje Vestland, Den store nordiske krig kirkesalg.</p>
+        <h3 data-i18n="footer_title">Bruvik Longread</h3>
+        <p data-i18n="history_sources_note">Все изображения взяты из Marcus при Universitetsbiblioteket i Bergen.</p>
       </div>
-      <small>Страница построена на главах 1–2 и таблицах 6.1/Таблица 1 исходного документа.</small>
+      <small data-i18n="footer_route">Rute: Bruvik kyrkje • Ulfsnesøy • Kossdalsvegen • Bruviknipa</small>
     </div>
   </footer>
 
   <script src="js/main.js" defer></script>
 </body>
 </html>
+

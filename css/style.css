@@ -709,6 +709,132 @@ small {
   transform: translateY(0);
 }
 
+body.chronicle-page {
+  background:
+    radial-gradient(circle at 10% 12%, rgba(173, 118, 93, 0.14) 0%, rgba(173, 118, 93, 0) 34%),
+    radial-gradient(circle at 88% 18%, rgba(115, 140, 151, 0.18) 0%, rgba(115, 140, 151, 0) 38%),
+    linear-gradient(168deg, #0a1419 0%, #112229 54%, #0d1d24 100%);
+}
+
+.chronicle-main {
+  position: relative;
+}
+
+.chronicle-hero {
+  min-height: calc(100svh - var(--header-height));
+}
+
+.chronicle-hero .hero-content {
+  max-width: 860px;
+  padding-top: calc(var(--header-height) + 1.2rem);
+  padding-bottom: 2.4rem;
+}
+
+.chronicle-hero h1 {
+  max-width: 14ch;
+}
+
+.chronicle-stack {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 2.2rem 1rem 1.4rem;
+}
+
+.chronicle-article {
+  max-width: 980px;
+  margin: 0 auto 2.6rem;
+}
+
+.chronicle-prologue,
+.chronicle-chapter {
+  max-width: 920px;
+  margin: 0 auto 1.4rem;
+}
+
+.chronicle-prologue h2 {
+  font-size: clamp(1.6rem, 4.2vw, 2.8rem);
+}
+
+.chronicle-chapter h3 {
+  font-size: clamp(1.25rem, 2.8vw, 2rem);
+  margin-bottom: 0.75rem;
+}
+
+.chronicle-chapter p,
+.chronicle-prologue p {
+  margin: 0 0 1rem;
+  line-height: 1.76;
+  color: #dce8eb;
+}
+
+.chronicle-chapter ul {
+  margin: 0 0 1.2rem;
+  padding-left: 1.2rem;
+}
+
+.chronicle-chapter li {
+  margin-bottom: 0.5rem;
+}
+
+.chronicle-figure {
+  max-width: 980px;
+  margin: 0 auto 1.85rem;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid rgba(162, 187, 196, 0.32);
+  background: linear-gradient(152deg, rgba(8, 16, 22, 0.9), rgba(13, 25, 31, 0.84));
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.35);
+}
+
+.chronicle-figure img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.chronicle-credit {
+  margin: 0;
+  padding: 0.86rem 0.95rem 1rem;
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: #cbdbdf;
+  border-top: 1px solid rgba(158, 183, 190, 0.25);
+}
+
+.chronicle-credit a {
+  color: #e6f2f5;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  word-break: break-all;
+}
+
+.chronicle-sources {
+  max-width: 980px;
+  margin: 0 auto 2.8rem;
+}
+
+.chronicle-sources h2 {
+  margin-bottom: 0.8rem;
+}
+
+.chronicle-sources p {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+}
+
+.chronicle-sources ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.chronicle-sources li {
+  margin-bottom: 0.4rem;
+}
+
+[data-lang-block][hidden] {
+  display: none !important;
+}
+
 @media (min-width: 860px) {
   .nav-toggle {
     display: none;
@@ -741,6 +867,15 @@ small {
   .hero-intro .hero-content {
     padding-top: calc(var(--header-height) + 1.8rem);
     padding-bottom: 2rem;
+  }
+
+  .chronicle-hero .hero-content {
+    padding-top: calc(var(--header-height) + 1.6rem);
+    padding-bottom: 3rem;
+  }
+
+  .chronicle-stack {
+    padding-top: 2.8rem;
   }
 
   .footer-grid {
