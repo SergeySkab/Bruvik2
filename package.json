@@ -1,0 +1,27 @@
+{
+  "name": "bruvik2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "npx netlify dev",
+    "lint": "run-s lint:js lint:css lint:html",
+    "lint:js": "eslint js netlify/functions scripts",
+    "lint:css": "stylelint \"css/**/*.css\"",
+    "lint:html": "html-validate \"*.html\"",
+    "format": "prettier --write \"*.html\" \"css/**/*.css\" \"js/**/*.js\" \"netlify/functions/**/*.js\" \"scripts/**/*.mjs\" \"*.md\" \"text/**/*.md\"",
+    "test:smoke": "node scripts/smoke.mjs",
+    "optimize:images": "node scripts/optimize-images.mjs"
+  },
+  "devDependencies": {
+    "eslint": "^9.21.0",
+    "globals": "^15.15.0",
+    "html-validate": "^9.5.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.5.2",
+    "sharp": "^0.33.5",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard": "^37.0.0"
+  }
+}

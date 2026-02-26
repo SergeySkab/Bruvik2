@@ -1,0 +1,5 @@
+.netlify/
+.netlify-dist/
+node_modules/
+*.log
+curl.*.log

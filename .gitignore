@@ -14,7 +14,12 @@ id_rsa
 id_rsa.pub
 *.secret
 *.credentials
+node_modules/
+*.log
 
 
 # Local Netlify folder
 .netlify
+
+# Build output
+.netlify-dist/
