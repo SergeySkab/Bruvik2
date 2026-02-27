@@ -9,13 +9,18 @@
 ## i18n
 
 - Update all 4 locales for any changed `data-i18n` key.
-- Keep `Bruvik kyrkje`, `Ulfsnesøy`, `Neskaivegen` naming consistent.
+- Keep `Bruvik kyrkje`, `Ulfsnesoy`, `Neskaivegen` naming consistent.
 
 ## Images
 
 - Add originals into `images/`.
 - Run `npm run optimize:images` to generate `.webp` versions.
 - Prefer `.webp` in HTML/CSS references when available.
+
+## Functions
+
+- `health` endpoint is part of active smoke/runtime checks.
+- `contact` endpoint is currently reserved backend functionality and is not required by frontend quality gate.
 
 ## Quality Gate
 

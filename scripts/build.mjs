@@ -1,4 +1,4 @@
-import { cpSync, existsSync, mkdirSync, readdirSync, rmSync, statSync } from 'node:fs';
+import { copyFileSync, existsSync, mkdirSync, readdirSync, rmSync, statSync } from 'node:fs';
 import path from 'node:path';
 
 const root = process.cwd();
@@ -14,8 +14,6 @@ const includeNames = [
   'church-history.html',
   'neskaivegen.html',
   'ulfsnesoy.html',
-  'dark-tourism.html',
-  'nature-industry.html',
 ];
 
 const ensureDir = (target) => {
@@ -24,10 +22,38 @@ const ensureDir = (target) => {
   }
 };
 
+const copyRecursive = (source, target, shouldInclude) => {
+  const sourceStat = statSync(source);
+  if (!shouldInclude(source, sourceStat)) {
+    return;
+  }
+
+  if (sourceStat.isDirectory()) {
+    ensureDir(target);
+    for (const entry of readdirSync(source)) {
+      copyRecursive(path.join(source, entry), path.join(target, entry), shouldInclude);
+    }
+    return;
+  }
+
+  ensureDir(path.dirname(target));
+  copyFileSync(source, target);
+};
+
 const copyOne = (name) => {
   const source = path.join(root, name);
   const target = path.join(outDir, name);
-  cpSync(source, target, { recursive: true });
+  if (name !== 'images') {
+    copyRecursive(source, target, () => true);
+    return;
+  }
+
+  copyRecursive(source, target, (srcPath, stat) => {
+    if (stat.isDirectory()) return true;
+    if (!/\.(jpg|jpeg|png)$/i.test(srcPath)) return true;
+    const webpSibling = srcPath.replace(/\.(jpg|jpeg|png)$/i, '.webp');
+    return !existsSync(webpSibling);
+  });
 };
 
 if (existsSync(outDir)) {

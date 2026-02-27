@@ -4,8 +4,9 @@ const urls = [
   'http://localhost:8888/',
   'http://localhost:8888/ulfsnesoy.html',
   'http://localhost:8888/.netlify/functions/health',
-  'http://localhost:8888/dark-tourism.html',
-  'http://localhost:8888/nature-industry.html',
+  'http://localhost:8888/history.html',
+  'http://localhost:8888/church-history.html',
+  'http://localhost:8888/neskaivegen.html',
 ];
 
 const request = (url) =>
@@ -26,8 +27,20 @@ const request = (url) =>
   });
 
 const results = [];
+try {
+  await request(urls[0]);
+} catch {
+  console.error('Smoke check requires a running Netlify dev server on http://localhost:8888.');
+  console.error('Start it with: npm run serve');
+  process.exit(1);
+}
+
 for (const url of urls) {
-  results.push(await request(url));
+  try {
+    results.push(await request(url));
+  } catch (error) {
+    results.push({ url, status: 0, body: String(error?.message || error) });
+  }
 }
 
 let failed = false;
